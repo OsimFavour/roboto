@@ -32,10 +32,10 @@ const RobotoCard = ({ id, name, description, type }: RobotoCardProps) => {
         </div>
         <CardDescription className="line-clamp-2 text-gray-400">{description}</CardDescription>
       </CardHeader>
-      <CardFooter className="flex justify-center">
+      <CardFooter className="flex justify-between">
         
         <Button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white py-6 px-8">Learn More</Button>
-        
+        <Button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white py-6 px-8">Hi Chiemezie!</Button>
       </CardFooter>
     </Card>
   )
